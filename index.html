@@ -47,6 +47,49 @@
             background: #222;
             color: white;
         }
+        .section {
+    padding: 35px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h2 {
+    color: #263cbb;
+    margin-bottom: 15px;
+}
+
+.section p {
+    line-height: 1.7;
+    color: #555;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.feature-card {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.feature-card h3 {
+    color: #263cbb;
+}
+
+.feature-card p {
+    font-size: 14px;
+}
+
+.section:nth-child(even) {
+    background: #eaf0ff;
+    border-radius: 12px;
+}
     </style>
 </head>
 
@@ -66,16 +109,170 @@
             assignments, expenses and more.
         </p>
 
-        <h3>Features</h3>
+       
+<!-- ABOUT APPLICATION -->
+<section class="section">
 
-        <p>Routine Schedule</p>
-        <p>To-do Checklist</p>
-        <p>Week Plan</p>
-        <p>Class Timetable</p>
-        <p>Expense Tracker</p>
-        <p>Mess Menu</p>
-        <p>Connections</p>
-        <p>Academic Calendar</p>
+    <h2>About College Companion</h2>
+
+    <p>
+        College Companion is an Android application designed
+        to help college students organize their everyday
+        academic and personal activities in one place.
+    </p>
+
+    <p>
+        From managing daily routines and class schedules
+        to tracking expenses and maintaining important
+        contacts, College Companion aims to make college
+        life more organized and convenient.
+    </p>
+
+</section>
+
+
+<!-- APP FEATURES -->
+<section class="section">
+
+    <h2>Explore Our Features</h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <h3>📅 Routine Schedule</h3>
+            <p>
+                Organize your daily routine and manage
+                your activities according to your schedule.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>✅ To-do Checklist</h3>
+            <p>
+                Keep track of assignments and important
+                tasks. Set reminders to stay organized.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>📆 Week Plan</h3>
+            <p>
+                Plan your weekly activities and organize
+                your academic and personal schedule.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🏫 Class Timetable</h3>
+            <p>
+                Keep your class timetable organized
+                and easily check your scheduled classes.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>💰 Expense Tracker</h3>
+            <p>
+                Record your expenses and keep track
+                of your spending during college life.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🍽️ Mess Menu</h3>
+            <p>
+                View and manage your mess menu
+                information conveniently.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>👥 Connections</h3>
+            <p>
+                Organize contact information for
+                friends, best friends, faculty,
+                proctors and professional connections.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🎓 Academic Calendar</h3>
+            <p>
+                Keep track of important academic
+                dates, events and semester activities.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- WHY USE THE APP -->
+<section class="section">
+
+    <h2>Why Choose College Companion?</h2>
+
+    <p>
+        College life involves managing classes,
+        assignments, personal activities and expenses.
+        College Companion brings these organizational
+        tools together in one application.
+    </p>
+
+    <p>
+        Its goal is to help students save time,
+        stay organized and manage their everyday
+        college responsibilities more easily.
+    </p>
+
+</section>
+
+
+<!-- HOW TO USE -->
+<section class="section">
+
+    <h2>How to Get Started</h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <h3>Step 1</h3>
+            <p>Download the College Companion APK.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Step 2</h3>
+            <p>Install the application on your Android phone.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Step 3</h3>
+            <p>Open the application and explore its features.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Step 4</h3>
+            <p>Start organizing your college activities.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT DEVELOPER -->
+<section class="section">
+
+    <h2>About the Developer</h2>
+
+    <p>
+        College Companion is an independent Android
+        application project developed to make everyday
+        college organization easier for students.
+    </p>
+
+</section>
 
         <a class="download-btn"
         href="https://github.com/chandrahas2007-tech/college-companion/releases/download/v1.0.0/CollegeCompanion.apk">
